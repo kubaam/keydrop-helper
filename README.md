@@ -7,11 +7,17 @@
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/status-UNOFFICIAL-red" alt="Unofficial">
+  <img src="https://img.shields.io/badge/use-AT%20YOUR%20OWN%20RISK-orange" alt="Use at your own risk">
   <img src="https://img.shields.io/badge/version-2.4.0-6366f1" alt="Version 2.4.0">
   <img src="https://img.shields.io/badge/Chrome-MV3-22c55e" alt="Chrome Manifest V3">
   <img src="https://img.shields.io/badge/site-key--drop.com-FFCB77" alt="Works on key-drop.com">
   <img src="https://img.shields.io/badge/site-keydrop.com-FFCB77" alt="Works on keydrop.com">
 </p>
+
+> [!WARNING]
+> **This is an unofficial, fan-made extension. Use at your own risk.**
+> Not affiliated with, endorsed by, or supported by Key-Drop, KeyDrop, Valve, or Steam. The author provides no warranty and assumes no liability for any account action, data loss, or other consequence resulting from its use. **18+ only. Play responsibly.**
 
 ---
 
@@ -119,9 +125,19 @@ keydrop-helper/
 
 KeyDrop Helper makes **zero network requests**. It only reads and rearranges the DOM of pages you visit on the KeyDrop domains. Your toggle preferences are stored in `chrome.storage.local`, which never leaves your machine. No analytics, no tracking pixels, no external scripts.
 
-## Disclaimer
+## Disclaimer — Unofficial, Use at Your Own Risk
 
-This is an **unofficial, fan-made** browser extension. It is **not affiliated with, endorsed by, or supported by** Key-Drop, KeyDrop, KeyDrop.com, Valve, Steam, or any related entity. It does not bypass any security, rate limits, or terms of service — it only automates clicks and reorders DOM elements that are already visible to the user. Use at your own risk. **18+ only. Play responsibly.**
+This is an **unofficial, fan-made, third-party** browser extension. It is **not affiliated with, endorsed by, sponsored by, or supported by** Key-Drop, KeyDrop, KeyDrop.com, Valve, Steam, or any related entity.
+
+**Use at your own risk.** The extension:
+
+- Is provided **as-is**, with **no warranty** of any kind, express or implied.
+- Comes with **no guarantee of fitness for any particular purpose**, no guarantee of compatibility with future versions of the KeyDrop website, and no guarantee that it won't break unexpectedly.
+- May trigger anti-automation measures, rate limiting, account flags, or other actions from the KeyDrop website — **the author assumes no responsibility** for any account suspension, ban, loss of items, loss of balance, or any other consequence arising from its use.
+- Only automates clicks and reorders DOM elements that are already visible to the user. It does **not** bypass any security, payment, or anti-cheat system. Even so, automation may violate the KeyDrop Terms of Service — **review their ToS before using this extension** and stop using it if it conflicts with their rules.
+- Is intended for **personal, non-commercial use** only.
+
+**18+ only. Play responsibly.** Skin gambling can be addictive — if it stops being fun, stop playing. Helplines and resources are available in most countries.
 
 ## License
 
