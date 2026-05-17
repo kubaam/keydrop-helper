@@ -50,11 +50,11 @@ A small popup gives you a live count of visible cards, unique depositors, and th
 
 1. **Download** this repo as a ZIP (green "Code" button at the top right → "Download ZIP") and extract it, or clone it:
    ```
-   git clone https://github.com/kubaam/keydrop-helper.git
+   git clone https://github.com/kubaam/keydrop-giveaways-sorter.git
    ```
 2. Open `chrome://extensions` (or `edge://extensions`, `brave://extensions`).
 3. Toggle **Developer mode** on (top-right corner).
-4. Click **Load unpacked** and select the `keydrop-helper` folder.
+4. Click **Load unpacked** and select the `keydrop-giveaways-sorter` folder.
 5. The KeyDrop Helper icon appears in your toolbar. Pin it for easy access.
 
 ## Usage
@@ -106,7 +106,7 @@ The final flat order is applied to the live DOM with a minimum-move algorithm �
 ## Project structure
 
 ```
-keydrop-helper/
+keydrop-giveaways-sorter/
 ├── manifest.json     # MV3 manifest, host_permissions, content_scripts
 ├── content.js        # Sort engine, observers, auto-load loop, site error detection
 ├── popup.html        # Popup UI (toggles, stats, action buttons)
