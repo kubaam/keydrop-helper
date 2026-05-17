@@ -1,6 +1,6 @@
-# KeyDrop Helper
+# KeyDrop Helper — Depositor Giveaways Sorter
 
-> Chrome extension for **key-drop.com** and **keydrop.com** that auto-clicks "Load more", groups giveaway cards by username frequency and Total Value, and shows live stats — all in a clean popup UI.
+> **GUI Chrome extension** for **key-drop.com** and **keydrop.com** that sorts **depositor giveaways** (the user-created giveaways requiring a minimum deposit), auto-clicks "Load more", and shows live stats — all in a clean popup UI.
 
 <p align="center">
   <img src="gui.png" alt="KeyDrop Helper popup — Connected status, auto Load more toggle, Sort by frequency + value with LIVE badge, live stats showing 1.5k cards, 214 users, top frequency 80 (@cachorro1337), and Load once / Sort now action buttons" width="360">
@@ -23,12 +23,14 @@
 
 ## What it does
 
-KeyDrop Helper is a **Chrome / Edge / Brave** browser extension built for the CS2 (CS:GO) skin giveaway platform **Key-Drop**. It automates two things that are tedious to do by hand on the giveaways page:
+KeyDrop Helper is a **GUI browser extension** (Chrome / Edge / Brave) built for the CS2 (CS:GO) skin giveaway platform **Key-Drop** — specifically for the **depositor giveaways** page, where every card is a giveaway from a creator/user that requires a minimum deposit to enter. The page can contain thousands of these cards, and the same creator often posts dozens of giveaways back-to-back. This extension makes that browsable.
 
-1. **Auto Load more** — continuously clicks the "Load more" button so you can see every active giveaway without scrolling and clicking forever.
-2. **Smart sort** — visually groups giveaway cards by **username frequency**, then by **Total Value** inside each group, so you can spot which creators or whales are spamming the most giveaways at a glance.
+It automates two things that are tedious to do by hand:
 
-A small popup gives you live stats: how many cards are visible, how many unique users, and who's the most frequent poster.
+1. **Auto Load more** — continuously clicks the "Load more" button at the bottom of the depositor giveaways feed so every active giveaway loads without endless scrolling and clicking.
+2. **Sort depositor giveaways** — visually groups the cards by **username frequency**, then by **Total Value** inside each group, so you can spot which depositors are spamming the most giveaways at a glance and which of their drops are the most valuable.
+
+A small popup gives you a live count of visible cards, unique depositors, and the top user's posting frequency.
 
 ## Features
 
@@ -145,4 +147,4 @@ This project does not yet ship with a license file. All rights reserved by the a
 
 ---
 
-**Keywords:** key-drop, keydrop, key-drop.com, keydrop.com, KeyDrop extension, KeyDrop helper, KeyDrop auto load more, KeyDrop sort, KeyDrop giveaways, KeyDrop tools, CS2 skins, CS:GO skins, CSGO skins, Counter-Strike skins, Steam skins, giveaway sorter, browser extension, Chrome extension, Edge extension, Brave extension, Manifest V3, MV3, auto-clicker, giveaway helper, skin gambling helper, CS2 giveaways, free CS2 skins, KeyDrop bot (not a bot — automation helper), KeyDrop Plus alternative.
+**Keywords:** KeyDrop depositor giveaways sorter, KeyDrop depositors giveaways, depositor giveaways sort, depositors giveaways extension, KeyDrop giveaways sorter, key-drop depositor sort, KeyDrop GUI extension, KeyDrop user giveaways, KeyDrop creator giveaways, KeyDrop minimum deposit, sort by deposit, key-drop, keydrop, key-drop.com, keydrop.com, KeyDrop extension, KeyDrop helper, KeyDrop auto load more, KeyDrop sort, KeyDrop giveaways, KeyDrop tools, CS2 skins, CS:GO skins, CSGO skins, Counter-Strike skins, Steam skins, giveaway sorter, browser extension, Chrome extension, Edge extension, Brave extension, Manifest V3, MV3, auto-clicker, giveaway helper, skin gambling helper, CS2 giveaways, free CS2 skins, KeyDrop bot (not a bot — automation helper), KeyDrop Plus alternative.
