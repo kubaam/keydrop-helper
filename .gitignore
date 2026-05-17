@@ -1,0 +1,24 @@
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors / tooling
+.vscode/
+.idea/
+.claude/
+*.swp
+*.swo
+
+# Build / packaging artifacts
+*.zip
+*.crx
+*.pem
+dist/
+build/
+
+# Node / tooling (in case you add tooling later)
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml

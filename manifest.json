@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "KeyDrop Helper",
+  "version": "2.4.0",
+  "description": "Auto-click 'Load more' and sort giveaway cards by username frequency and Total Value. Smooth in-place sort, intersection-observed clicks, live stats.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "tabs",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://*.key-drop.com/*",
+    "https://*.keydrop.com/*",
+    "https://key-drop.com/*",
+    "https://keydrop.com/*"
+  ],
+  "action": {
+    "default_title": "KeyDrop Helper",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.key-drop.com/*",
+        "https://*.keydrop.com/*",
+        "https://key-drop.com/*",
+        "https://keydrop.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
